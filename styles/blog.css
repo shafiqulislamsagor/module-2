@@ -12,3 +12,9 @@ h3{
     /* display: none; */
     /* visibility: hidden; */
 }
+#Third{
+    text-decoration: dotted;
+    text-align: center;
+    background-color: aqua;
+    color: chocolate;
+}
