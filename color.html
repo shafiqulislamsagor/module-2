@@ -10,6 +10,19 @@
         }
         p{
             color: brown;
+            background-color: chartreuse;
+            width: 50%;
+        }
+        #short{
+            text-align: center;
+        }
+        #embeded{
+            font-size: larger;
+            font-weight: bold;
+        }
+        .player{
+            text-align: right;
+
         }
     </style>
 </head>
@@ -18,14 +31,15 @@
     <h4 style="background-color: blueviolet;">Inline CSS</h4>
     <p>CSS meaning: Cascading Style Sheet</p>
     <p>Style is colorful</p>
-    <p>Short form is CSS</p>
-    <p>Needs style rule and value separated by color (:)</p>
-    <p>After each styles you need to use semi-colon(:)</p>
+    <p id="short">Short form is CSS</p>
+    <p class="player">Needs style rule and value separated by color (:)</p>
+    <p class="player">After each styles you need to use semi-colon(:)</p>
 
     <ul>
-        <li>Internal or Embeded</li>
+        <li id="embeded">Internal or Embeded</li>
         <li>Inline</li>
         <li>External</li>
     </ul>
+    <p>This is a stand alone paragraph</p>
 </body>
 </html>
